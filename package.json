@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test-browser": "cross-env HEADLESS=false jest"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "jest": "^24.7.1",
+    "jest-puppeteer": "^4.1.0",
+    "puppeteer": "^1.14.0"
+  },
+  "dependencies": {
+    "jest-environment-puppeteer": "^4.1.0"
+  }
+}
